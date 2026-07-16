@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"b330c610f2a6421b","type":"text","text":"Project Grid","x":-360,"y":-400,"width":720,"height":620},
+		{"id":"c3e9449fb2c4bb0d","type":"text","text":"Project Card\nProject 1 click on to navigate project","x":-340,"y":-300,"width":250,"height":60},
+		{"id":"ba3affa09513f9e3","type":"text","text":"Project Card\nProject2","x":-80,"y":-300,"width":250,"height":60}
+	],
+	"edges":[]
+}

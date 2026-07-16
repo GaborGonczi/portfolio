@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"id":"27312141b0129e20","type":"text","text":"App","x":-40,"y":-560,"width":700,"height":760},
+		{"id":"bdaa922bbcf5af3d","type":"text","text":"Navbar (mat-toolbar)\nButtons\n","x":-40,"y":-500,"width":700,"height":180},
+		{"id":"6c33052f7468223a","type":"text","text":"[[Projects.canvas|Projects]]","x":120,"y":-435,"width":120,"height":50},
+		{"id":"03b14e745d86dc70","type":"text","text":"[[About.canvas|About]]","x":240,"y":-435,"width":100,"height":50},
+		{"id":"8ac3e19bfd760c90","type":"text","text":"[[CV.canvas|CV]]","x":340,"y":-435,"width":100,"height":50},
+		{"id":"95a0dba33f24c92f","type":"text","text":"Footer\n\n","x":-40,"y":60,"width":700,"height":140},
+		{"id":"74868ccfcfadcbcf","type":"text","text":"Info\n\n","x":-40,"y":105,"width":700,"height":50},
+		{"id":"a70312ef4c3f2197","type":"text","text":"Main content based on selected button\n\n","x":-42,"y":-320,"width":700,"height":380},
+		{"id":"ecc835b68810bd6c","type":"text","text":"[[Home page.canvas|Home page]]","x":-20,"y":-435,"width":140,"height":50}
+	],
+	"edges":[]
+}
