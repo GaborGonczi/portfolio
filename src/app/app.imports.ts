@@ -1,11 +1,8 @@
+//type
+import { IMPORT_TYPE } from "../angular/types";
+
 // core
-
-import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-
-
-type IMPORT_TYPE= Parameters<typeof Component>[0]["imports"]
-
 
 const APP_CORE_IMPORTS:IMPORT_TYPE=[
     RouterOutlet
