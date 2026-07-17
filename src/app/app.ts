@@ -1,5 +1,5 @@
 import { Component, signal } from '@angular/core';
-import {APP_IMPORTS} from './app.imports'
+import { APP_IMPORTS } from '@src/app/app.imports'
 
 @Component({
   selector: 'app-root',

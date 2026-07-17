@@ -1,0 +1,9 @@
+.navbar {
+  background-color: var(--mat-sys-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar button {
+  color: var(--mat-sys-on-primary);
+}
