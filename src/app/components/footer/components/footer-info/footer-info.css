@@ -1,0 +1,29 @@
+.contact-container {
+  display: flex;
+  gap: 24px;
+}
+
+.contact-line {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.contact-line mat-icon {
+  width: 22px;
+  height: 22px;
+}
+
+.contact-line a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.e-mail-link {
+  color: var(--mat-sys-on-secondary);
+  text-decoration: none;
+}
+.e-mail-link:hover {
+  color: var(--mat-sys-on-secondary);
+  text-decoration: underline;
+}
