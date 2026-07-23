@@ -1,0 +1,20 @@
+.technology-lists {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.technology-lists h3 {
+  margin: 0;
+}
+
+.technology-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+mat-icon {
+  width: 22px;
+  height: 22px;
+}

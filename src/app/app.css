@@ -1,0 +1,19 @@
+:host {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+app-navbar {
+  flex: 0 0 64px;
+}
+
+main {
+  flex: 1;
+  overflow-y: auto;
+}
+
+app-footer {
+  flex: 0 0 56px;
+}

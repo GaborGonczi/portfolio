@@ -1,0 +1,29 @@
+<h2 class="mat-font-headline-md">Technológiák</h2>
+<div class="technology-lists">
+  <div>
+    <h3 class="mat-font-title-lg">Fő stack</h3>
+    <mat-list>
+      @for (item of mainStack; track item.name) {
+        <mat-list-item>
+          <div class="technology-item">
+            <mat-icon aria-hidden="false" [aria-label]="item.name" [svgIcon]="item.icon"></mat-icon
+            ><span>{{ item.name }}</span>
+          </div>
+        </mat-list-item>
+      }
+    </mat-list>
+  </div>
+  <div>
+    <h3 class="mat-font-title-lg">Egyéb</h3>
+    <mat-list>
+      @for (item of additionalTechnologies; track item.name) {
+        <mat-list-item>
+          <div class="technology-item">
+            <mat-icon aria-hidden="false" [aria-label]="item.name" [svgIcon]="item.icon"></mat-icon
+            ><span>{{ item.name }}</span>
+          </div>
+        </mat-list-item>
+      }
+    </mat-list>
+  </div>
+</div>
