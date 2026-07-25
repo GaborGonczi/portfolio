@@ -16,5 +16,8 @@ export class Navbar {
   navigateToHomepage() {
     this.router.navigateByUrl('/');
   }
+  navigateToCv() {
+    this.router.navigateByUrl('/cv(navbar:cv)');
+  }
 
 }

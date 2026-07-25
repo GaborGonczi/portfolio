@@ -1,0 +1,8 @@
+.action-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.action-container a {
+  color: var(--mat-sys-on-primary);
+}
