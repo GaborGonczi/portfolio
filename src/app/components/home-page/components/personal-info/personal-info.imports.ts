@@ -1,13 +1,9 @@
-//type
+import { MatCardModule } from '@angular/material/card';
 import { IMPORT_TYPE } from '@src/angular/types';
-
-// core
-
-
-//feature
 
 
 const PERSONAL_INFO_CORE_IMPORTS:IMPORT_TYPE=[
+    MatCardModule
  
 ];
 const PERSONAL_INFO_FEATURE_IMPORTS:IMPORT_TYPE=[

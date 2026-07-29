@@ -1,4 +1,5 @@
 //type
+import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { IMPORT_TYPE } from '@src/angular/types';
@@ -7,7 +8,8 @@ import { IMPORT_TYPE } from '@src/angular/types';
 
 const PROFESSIONAL_INFO_CORE_IMPORTS:IMPORT_TYPE=[
     MatListModule,
-    MatIconModule
+    MatIconModule,
+    MatCardModule
  
 ];
 
