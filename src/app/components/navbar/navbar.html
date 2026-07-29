@@ -1,6 +1,6 @@
 <mat-toolbar class="navbar">
     <button matButton (click)="navigateToHomepage()">Főoldal</button>
-    <button matButton>Projektek</button>
+    <button matButton (click)="navigateToProjects()">Projektek</button>
     <button matButton (click)="navigateToCv()">CV</button>
     <router-outlet name="navbar"></router-outlet>
 </mat-toolbar>

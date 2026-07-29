@@ -1,0 +1,40 @@
+<h1 class="mat-font-headline-lg">Projektek</h1>
+<div class="mat-font-body-lg">
+  Az alábbi oldalon néhány elkészült projektem tekinthető meg. Kattints a megfelelő kártyára ha
+  kipróbálnád.
+</div>
+<div class="container">
+<!--<mat-grid-list cols="3" rowHeight="3:1">-->
+  @for (project of projectArray; track $index) {
+
+      <mat-card appearance="raised">
+        <mat-card-header>
+          <mat-card-title>{{ project.name }}</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <p>
+            {{ project.description }}
+          </p>
+        </mat-card-content>
+        <mat-card-footer>
+          <mat-card-actions>
+            <div class="flex-container">
+                     <a [href]="project.githubUrl" target="_blank" matButton="raised"
+              ><mat-icon aria-hidden="false" aria-label="Demo" svgIcon="github"></mat-icon
+            ></a>
+            <a [href]="project.demoUrl" target="_blank" matButton="raised"
+              ><mat-icon
+                aria-hidden="false"
+                aria-label="Source code"
+                fontIcon="open_in_new"
+              ></mat-icon
+            ></a>
+
+            </div>
+       
+          </mat-card-actions>
+        </mat-card-footer>
+      </mat-card>
+  }
+  </div>
+<!--</mat-grid-list>-->
