@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . .
 
-RUN npm install
+RUN npm ci && npm install -g @angular/cli
 
 RUN ng build --output-hashing=all
 
