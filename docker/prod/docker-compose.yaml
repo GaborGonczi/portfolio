@@ -6,7 +6,8 @@ services:
     container_name: portfolio
     restart: unless-stopped
     networks:
-      - proxy
+      proxy:
+       ipv4_address: 172.20.0.4
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.portfolio.rule=Host(`www.${DOMAIN}`) || Host(`${DOMAIN}`)"
